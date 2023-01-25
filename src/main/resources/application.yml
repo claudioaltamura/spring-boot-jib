@@ -1,0 +1,10 @@
+spring:
+  devtools:
+    restart:
+      enabled: true  # Set to enable hot deployment
+      additional-paths: src/main/java # restart directory
+      #exclude: WEB-INF/**
+      log-condition-evaluation-delta: false
+  thymeleaf:
+    cache: false # Use Thymeleaf template engine, turn off caching
+
