@@ -52,6 +52,8 @@ https://docs.docker.com/registry/spec/api/
 
     curl http://$(minikube ip):$NODE_PORT/superheroes | jq . 
 
+     ps -ef | grep docker@127.0.0.1
+
 ## Cleanup
     
     minikube kubectl -- delete svc spring-boot-jib
